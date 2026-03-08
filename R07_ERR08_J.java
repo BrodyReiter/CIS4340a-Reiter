@@ -1,6 +1,6 @@
 int length = 0;
-try {
+if (s != null) {
     length = s.length();
-} catch (NullPointerException e) {
+} else {
     // Handle null string
 }
